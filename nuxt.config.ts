@@ -1,7 +1,7 @@
-import { dirname, resolve } from 'node:path'
-import { fileURLToPath } from 'node:url'
+import { dirname, resolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const currentDir = dirname(fileURLToPath(import.meta.url))
+const currentDir = dirname(fileURLToPath(import.meta.url));
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
@@ -47,4 +47,4 @@ export default defineNuxtConfig({
       exclude: ['@cursor-run/ui'],
     },
   },
-})
+});
