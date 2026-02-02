@@ -1,0 +1,43 @@
+{
+  "name": "test-forum",
+  "type": "module",
+  "private": true,
+  "pnpm": {
+    "overrides": {
+      "@cursor-run/ui": "file:../test-run/packages/ui"
+    }
+  },
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "format": "prettier --write .",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@cursor-run/nuxt-ui": "file:../test-run/packages/nuxt-ui",
+    "@cursor-run/ui": "file:../test-run/packages/ui",
+    "@nuxt/eslint": "1.13.0",
+    "@nuxt/fonts": "0.13.0",
+    "@nuxt/hints": "1.0.0-alpha.6",
+    "@nuxt/icon": "2.2.1",
+    "@nuxt/image": "2.0.0",
+    "@pinia/nuxt": "^0.11.3",
+    "@vueuse/nuxt": "^14.2.0",
+    "clsx": "^2.1.1",
+    "eslint": "^9.39.2",
+    "nuxt": "^4.3.0",
+    "tailwind-merge": "^3.4.0",
+    "vue": "^3.5.27",
+    "vue-router": "^4.6.4",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@iconify-json/heroicons": "^1.2.3",
+    "@iconify-json/lucide": "^1.2.3",
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "prettier": "^3.8.1",
+    "prettier-plugin-tailwindcss": "^0.7.2"
+  }
+}
